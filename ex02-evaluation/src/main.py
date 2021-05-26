@@ -60,7 +60,6 @@ def McNemar_test(labels, prediction_1, prediction_2):
                 B += 1
             else:
                 C += 1
-
     chi2_Mc = np.square(B - C - 1) / (B + C)
     return chi2_Mc
 
